@@ -1,0 +1,126 @@
+body {
+    background-image: url('/img/Presidents-collage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    border: 2px solid burlywood;
+    border-top: 0;
+    background-color: rgba(255, 235, 204, 0.90);
+    padding: 2px;
+}
+
+#header {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#header h1 {
+    width: 650px;
+    margin: auto;
+    padding: 4px;
+    border: 2px solid burlywood;
+    background-color: blanchedalmond;
+}
+
+#welcome {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: rgba(255, 235, 204, 0.37);
+}
+
+#welcome code {
+    padding: 1px;
+    font-size: 9pt;
+    background-color: rgb(223, 221, 221);
+}
+
+#quizContainer {
+    width: 98%;
+    margin: 2px auto 10px;
+    padding: 1px 4px 20px;
+}
+
+#question {
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05em;
+    margin-bottom: 4px;
+    border: 1px solid burlywood;
+    background-color: aliceblue;
+}
+
+#question p {
+    width: 95%;
+    margin: auto;
+}
+
+#question strong {
+    font-size: 1.15em;
+}
+
+#answer {
+    text-align: center;
+    padding: 8px;
+}
+
+#answer h3 {
+    display: inline;
+    margin: 0 2px;
+}
+
+#answer input {
+    margin: 0 2px;
+}
+
+#answer button {
+    margin: 0 2px;
+}
+
+#grade {
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid burlywood;
+    padding: 4px;
+}
+
+#grade table {
+    table-layout: fixed;
+    width: 100%;
+    /* border-collapse: collapse;
+    border: 1px solid brown; */
+}
+
+#grade thead th:nth-child(1) {
+    width: 5%;
+}
+
+#grade thead th:nth-child(2) {
+    width: 60%;
+}
+
+#grade thead th:nth-child(3) {
+    width: 5%;
+}
+
+#grade thead th:nth-child(4) {
+    width: 30%;
+}
+
+#grade th,
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+#grade p {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
