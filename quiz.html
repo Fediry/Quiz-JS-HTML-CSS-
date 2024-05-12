@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Presidents of the United States Quiz</h1>
+    </div>
+    <main>
+        <div id="welcome">
+            <p>Enter your name, and click <code>[Start Quiz]</code> to begin</p>
+            <form id="welcomeForm">
+                <label for="userName">Student Name: <input type="text" name="userName" id="userName" autofocus required></label>
+                <button name="submitName" id="submitName" onclick="return startQuiz()">Start Quiz</button>
+            </form>
+        </div>
+        <div id="quizContainer">
+            <div id="question" class="hidden"></div>
+            <div id="answer" class="hidden"></div>
+            <div id="grade"  class="hidden"></div>
+        </div>
+
+    </main>
+    <script type="text/javascript" src="js/quiz.js"></script>
+</body>
+</html>
