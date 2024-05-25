@@ -7,10 +7,10 @@ let userAnswers = [];       //  hold user's answers
 let numberCorrect = 0;      //  track correct answered questions
 let currentQuestion = 0;    //  track current unanswered question
 
-// Fetch the quiz data (currently from /data/data.json)
+// Fetch the quiz data (currently from ./data/data.json)
 async function fetchQuizData() {
     try {
-        let response = await fetch('/data/data.json');
+        let response = await fetch('data/data.json');
         if (!response.ok) {
             throw new Error("Unable to fetch the data!");
         }
@@ -119,9 +119,9 @@ function showGrade() {
         let qAnswer = Questions[a].answer;
         // Create references to the right and wrong image elements
         const greenCheck = document.createElement("img");
-        greenCheck.src = "/img/greenCheck.png";
+        greenCheck.src = "img/greenCheck.png";
         const redX = document.createElement("img");
-        redX.src = "/img/redX.png";
+        redX.src = "img/redX.png";
 
         let col1 = document.createElement("th");        // reference to column 1 cell in each row
         col1.appendChild(document.createTextNode(a+1));           // Question Number
